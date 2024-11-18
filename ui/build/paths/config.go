@@ -110,6 +110,8 @@ var Configuration = map[string]PathConfig{
 	"unzip":          Allowed,
 	"zip":            Allowed,
         "curl":           Allowed,
+        "sign_target_files_apks": Allowed,
+	"ota_from_target_files": Allowed,
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
