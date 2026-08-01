@@ -260,6 +260,11 @@ com\.google\.i18n\.phonenumbers\..*
 com\.google\.i18n\.phonenumbers
 
 ###################################################
+# Packages from the Qualcomm vendor boot jars (device/fairphone/FP4 puts
+# tcmiface on the bootclasspath for the Data Protection Manager).
+com\.quicinc\.tcmiface
+
+###################################################
 # Packages used for Android in Chrome OS
 org\.chromium\.arc
 org\.chromium\.arc\..*
